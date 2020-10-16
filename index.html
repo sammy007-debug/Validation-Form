@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client-side Form Validation</title>
+    <script src="https://kit.fontawesome.com/ab2155e76b.js" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="/style.css">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header"> 
+          <h2>Create Account</h2>
+        </div>
+        <form class="form" id="form">
+          <div class="form-control ">
+          <label>Username</label>
+          <input id="username" type= "text" placeholder="Enter Your Username">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            
+            <small>Error Message</small>
+          
+          </div>
+          
+          <div class="form-control ">
+          <label>Email</label>
+          <input id="email" type= "email" placeholder="name@domain.com">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            
+            <small>Error Message</small>
+          
+          </div>
+          <div class="form-control">
+          <label>Password</label>
+          <input id="password" type= "password" placeholder="Enter Password">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            
+            <small>Error Message</small>
+          
+          </div>
+          <div class="form-control">
+          <label>Password Check</label>
+          <input id="passwordCheck" type= "password" placeholder="Retype your Password">
+            <i class="fas fa-check-circle"></i>
+            <i class="fas fa-exclamation-circle"></i>
+            
+            <small>Error Message</small>
+          
+          </div>
+          <button>Submit</button>
+        </form>
+      </div>
+
+      <script src="/app.js"></script>
+    
+</body>
+</html>
